@@ -1,2 +1,233 @@
-# Portif-lio-Cubos-Academy
-Programando do Zero
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" /> </meta>
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="estilo.css" class="css"/>
+    <link
+     href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" 
+     rel="stylesheet"/>
+
+  </head>
+
+  <body>
+  <header>
+      <img class= "foto" width=200px src="debora.JPG"/> 
+      <div class="dados">
+        <h1><span>Débora Franquêta</span>, 28 </h1>
+        <p class= "profissao t60">
+      Desenvolvedora Front-end Em Formação
+    </p>
+      </div>
+
+  </header>
+  <main>
+    <div class="coluna-menor">
+      <div class="experiencias">
+        <h2>Experiências profissionais</h2>
+        <div class="linha"></div>
+       <ul>
+         <li>
+  <img class="ul, ol " src=data:image/png;base64,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 >
+     <div class="conteudo">
+   <h3>
+  <b>Especialista em Análise de Crédito e Fraudes</b>  @Sinapse Digital</h3>
+   <p class="periodo t60">Janeiro de 2018 a Novembro de 2019</p>
+           </div> 
+          </li>
+          <li>
+   <img
+  src="data:image/png;base64,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"=/>
+  <div class="conteudo">   
+  <h3><b>Analista de Crédito e Fraudes</b>  @Cencosud</h3>
+  <p class="periodo t60">Outubro de 2010 a Agosto de 2014</p>
+      </div> 
+      </li>
+      </ul>
+    </div>
+      <div class="formaçao">
+      <h2>Formação</h2>
+      <div class="linha"></div>
+      <ul>
+      <li>
+      <img src= data:image/png;base64,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>
+      <div class="conteudo">
+      <h3>
+      <b>Imersão programação do zero</b>  @Cubos Academy</h3>
+      <p class="periodo t60">Outubro 2020</p>
+      </div> 
+      </li>
+      <li>
+      <img
+          src=https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQlRYOz3e24s6b1kqWe5Leyq2MFt57z6yTrTg&usqp=CAU/>
+      <div class="conteudo">
+      <h3><b>Análise e Desenvolvimento de Sistemas</b>  @Uninassau</h3>
+      <p class="periodo t60">Agosto 2020</p>
+      </li>
+ </ul>
+    </div>
+    </div>
+    </div>
+    <div class="coluna-maior">
+      <div class="habilidades"></div>
+        <h2>Habilidades</h2>
+      <div class="habilidade">
+      <h3>Front</h3>      <ul>
+        <li>
+          <p>HTML</p>
+          <div class="progresso">
+          <div class="barra"></div>
+          <div class="barra incompleto"></div>
+          <div class="barra incompleto"></div>
+          <div class="barra incompleto"></div>
+          <div class="barra incompleto"></div> 
+        </div>
+        </li>
+        <li>
+          <p>CSS</p>
+          <div class="progresso">
+          <div class="barra"></div>
+          <div class="barra incompleto"></div>
+          <div class="barra incompleto"></div>
+          <div class="barra incompleto"></div>
+          <div class="barra incompleto"></div>
+        </div>
+      </li>
+      <li>
+        <p>JavaScript</p>
+        <div class="progresso">
+        <div class="barra incompleto"></div>
+        <div class="barra incompleto"></div>
+        <div class="barra incompleto"></div>
+        <div class="barra incompleto"></div>
+        <div class="barra incompleto"></div> 
+      </div>
+    </li>
+    <li>
+      <p>React</p>
+      <div class="progresso">
+      <div class="barra incompleto"></div>
+      <div class="barra incompleto"></div>
+      <div class="barra incompleto"></div>
+      <div class="barra incompleto"></div>
+      <div class="barra incompleto"></div> 
+      </ul>
+    </div>
+    <div class="habilidade">
+
+
+      <h3>Back</h3>
+      <ul>
+        <li>
+          <p>Node.js</p>
+          <div class="progresso">
+          <div class="barra incompleto"></div>
+          <div class="barra incompleto"></div>
+          <div class="barra incompleto"></div>
+          <div class="barra incompleto"></div>
+          <div class="barra incompleto"></div> 
+        </div>
+        </li>
+        <li>
+          <p>PostgreSQL</p>
+          <div class="progresso">
+          <div class="barra incompleto"></div>
+          <div class="barra incompleto"></div>
+          <div class="barra incompleto"></div>
+          <div class="barra incompleto"></div>
+          <div class="barra incompleto"></div>
+        </div>
+      </li>
+      <li>
+        <p>JWT</p>
+        <div class="progresso">
+        <div class="barra incompleto"></div>
+        <div class="barra incompleto"></div>
+        <div class="barra incompleto"></div>
+        <div class="barra incompleto"></div>
+        <div class="barra incompleto"></div> 
+      </div>
+    </li>
+    <li>
+      <p>REST</p>
+      <div class="progresso">
+      <div class="barra incompleto"></div>
+      <div class="barra incompleto"></div>
+      <div class="barra incompleto"></div>
+      <div class="barra incompleto"></div>
+      <div class="barra incompleto"></div>
+  </div>
+</ul>
+</div>
+<div class="habilidade">
+
+  
+  <h3>Soft skills</h3>
+  <ul>
+    <li>
+      <p>Comunicação</p>
+      <div class="progresso">
+      <div class="barra incompleto"></div>
+      <div class="barra incompleto"></div>
+      <div class="barra incompleto"></div>
+      <div class="barra incompleto"></div>
+      <div class="barra incompleto"></div> 
+    </div>
+    </li>
+    <li>
+      <p>Trabalho em Equipe</p>
+      <div class="progresso">
+      <div class="barra incompleto"></div>
+      <div class="barra incompleto"></div>
+      <div class="barra incompleto"></div>
+      <div class="barra incompleto"></div>
+      <div class="barra incompleto"></div>
+    </div>
+  </li>
+  <li>
+    <p>Gerenciamento de Tempo</p>
+    <div class="progresso">
+    <div class="barra incompleto"></div>
+    <div class="barra incompleto"></div>
+    <div class="barra incompleto"></div>
+    <div class="barra incompleto"></div>
+    <div class="barra incompleto"></div> 
+  </div>
+</li>
+<li>
+  <p>Gestão de Conflitos</p>
+  <div class="progresso">
+  <div class="barra incompleto"></div>
+  <div class="barra incompleto"></div>
+  <div class="barra incompleto"></div>
+  <div class="barra incompleto"></div>
+  <div class="barra incompleto"></div>
+
+</div>
+</div>
+</li>
+
+
+
+
+
+
+
+<h2>Projetos</h2>
+
+  <div class="projetos">
+  <div class="projeto">
+<h3> Em Desenvolvimento</h3>
+<p>.</p>
+          <img src="debb.png">
+<a href="https://google.com.br ">Aguardem</a>
+  </div>
+  </div>
+</main>
+<footer>
+  Projeto Desenvolvido durante a imersão da Cubos Academy 2020
+  </footer>
+</body>
+</html>
