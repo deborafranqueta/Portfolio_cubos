@@ -128,8 +128,9 @@ margin-left: 16px;
   background-color: white;
   border-radius: 50px;
   padding: 40px;
-  margin-top: 20px;
+  margin-top: 10px;
   width: 288px;
+
   
 }
 
@@ -182,20 +183,24 @@ margin-left: 16px;
 }
 .projetos {
   width: 392px;
-  padding: 24px;
+  padding: 20px;
   background-color: white;
   border-radius: 8px;
   margin: 12px;
   border-radius: 50px;
+  margin-top: 10px;
 }
 .projeto h3{
   font-size: 24px;
   font-weight: bold;
+  text-align: center;
 }
 
 .projeto p {
-margin-top: 16px;
+margin-top: 14px;
 margin-bottom:24px;
+font-size: 20px;
+text-align: center;
 }
 
 .projeto a{
